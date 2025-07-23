@@ -1,0 +1,34 @@
+---
+- name: manage vsftpd
+  hosts: ansible1
+  tasks:
+    - name: install vsftpd
+      dnf:
+        name: vsftpd
+        state: latest
+
+    - name: configure vsftpd configuration file
+      template:
+        src: vsftpd.j2
+        dest: /etc/vsftpd/vsftpd.conf
+
+- name: apply permissions
+  hosts: ansible1
+  tasks:
+    - name: set folder permissions to /var/ftp/pub
+      file:
+        path: /var/ftp/pub
+        mode: 0777
+
+    - name: set ftpd_anon_write boolean
+      seboolean:
+        name: ftpd_anon_write
+        state: yes
+        persistent: yes
+
+    - name: set public_content_rw_t SELinux context type to /var/ftp/pub directory
+      sefcontext:
+        target: '/var/ftp/pub(/.*)'
+
+    - name: firewall stuff
+    - name: start and enable fsftpd
