@@ -1,6 +1,11 @@
 ---
 - name: manage vsftpd
   hosts: ansible1
+  vars:
+    anonymous_enable: yes
+    local_enable: yes
+    write_enable: yes
+    Anon_upload_enable: yes
   tasks:
     - name: install vsftpd
       dnf:
@@ -28,7 +33,24 @@
 
     - name: set public_content_rw_t SELinux context type to /var/ftp/pub directory
       sefcontext:
-        target: '/var/ftp/pub(/.*)'
+        target: '/var/ftp/pub(/.*)?'
+        setype: public_content_rw_t
+        state: present
+      notify: restore selinux contexts
 
     - name: firewall stuff
+      firewalld:
+        service: ftp
+        state: enabled
+        permanent: true
+        immediate: true
+
     - name: start and enable fsftpd
+      service: 
+        name: vsftpd
+        state: started
+        enabled: yes
+
+  handlers:
+    - name: restore selinux contexts
+      command: restorecon -v /var/ftp/pub
