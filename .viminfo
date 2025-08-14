@@ -17,6 +17,8 @@
 $'
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1755172237,,"q!"
 :wq!
 |2,0,1755172167,,"wq!"
 :%s/’/'/g
@@ -36,29 +38,43 @@ $'
 
 # File marks:
 '0  4  11  ~/.gitignore
-|4,48,4,11,1755172167,"~/.gitignore"
-'1  27  0  ~/inventories/listing101.py
-|4,49,27,0,1755170408,"~/inventories/listing101.py"
-'2  31  0  ~/inventories/listing101.py
-|4,50,31,0,1755170336,"~/inventories/listing101.py"
+|4,48,4,11,1755172237,"~/.gitignore"
+'1  4  11  ~/.gitignore
+|4,49,4,11,1755172167,"~/.gitignore"
+'2  27  0  ~/inventories/listing101.py
+|4,50,27,0,1755170408,"~/inventories/listing101.py"
 '3  31  0  ~/inventories/listing101.py
 |4,51,31,0,1755170336,"~/inventories/listing101.py"
-'4  3  0  ~/inventories/inventory
-|4,52,3,0,1755170177,"~/inventories/inventory"
-'5  31  72  ~/inventories/listing101.py
-|4,53,31,72,1755170010,"~/inventories/listing101.py"
+'4  31  0  ~/inventories/listing101.py
+|4,52,31,0,1755170336,"~/inventories/listing101.py"
+'5  3  0  ~/inventories/inventory
+|4,53,3,0,1755170177,"~/inventories/inventory"
 '6  31  72  ~/inventories/listing101.py
 |4,54,31,72,1755170010,"~/inventories/listing101.py"
+'7  31  72  ~/inventories/listing101.py
+|4,55,31,72,1755170010,"~/inventories/listing101.py"
 
 # Jumplist (newest first):
 -'  4  11  ~/.gitignore
+|4,39,4,11,1755172237,"~/.gitignore"
+-'  4  11  ~/.gitignore
 |4,39,4,11,1755172167,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1755172065,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1755172065,"~/.gitignore"
 -'  27  0  ~/inventories/listing101.py
 |4,39,27,0,1755170408,"~/inventories/listing101.py"
 -'  27  0  ~/inventories/listing101.py
 |4,39,27,0,1755170408,"~/inventories/listing101.py"
+-'  27  0  ~/inventories/listing101.py
+|4,39,27,0,1755170408,"~/inventories/listing101.py"
+-'  27  0  ~/inventories/listing101.py
+|4,39,27,0,1755170408,"~/inventories/listing101.py"
+-'  12  7  ~/inventories/listing101.py
+|4,39,12,7,1755170403,"~/inventories/listing101.py"
+-'  12  7  ~/inventories/listing101.py
+|4,39,12,7,1755170403,"~/inventories/listing101.py"
 -'  12  7  ~/inventories/listing101.py
 |4,39,12,7,1755170403,"~/inventories/listing101.py"
 -'  12  7  ~/inventories/listing101.py
@@ -67,6 +83,14 @@ $'
 |4,39,31,0,1755170372,"~/inventories/listing101.py"
 -'  31  0  ~/inventories/listing101.py
 |4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170336,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170336,"~/inventories/listing101.py"
 -'  31  0  ~/inventories/listing101.py
 |4,39,31,0,1755170336,"~/inventories/listing101.py"
 -'  31  0  ~/inventories/listing101.py
@@ -87,6 +111,38 @@ $'
 |4,39,3,0,1755170177,"~/inventories/inventory"
 -'  3  0  ~/inventories/inventory
 |4,39,3,0,1755170177,"~/inventories/inventory"
+-'  3  0  ~/inventories/inventory
+|4,39,3,0,1755170177,"~/inventories/inventory"
+-'  3  0  ~/inventories/inventory
+|4,39,3,0,1755170177,"~/inventories/inventory"
+-'  3  0  ~/inventories/inventory
+|4,39,3,0,1755170177,"~/inventories/inventory"
+-'  3  0  ~/inventories/inventory
+|4,39,3,0,1755170177,"~/inventories/inventory"
+-'  3  0  ~/inventories/inventory
+|4,39,3,0,1755170177,"~/inventories/inventory"
+-'  3  0  ~/inventories/inventory
+|4,39,3,0,1755170177,"~/inventories/inventory"
+-'  3  0  ~/inventories/inventory
+|4,39,3,0,1755170177,"~/inventories/inventory"
+-'  3  0  ~/inventories/inventory
+|4,39,3,0,1755170177,"~/inventories/inventory"
+-'  1  0  ~/inventories/inventory
+|4,39,1,0,1755170136,"~/inventories/inventory"
+-'  1  0  ~/inventories/inventory
+|4,39,1,0,1755170136,"~/inventories/inventory"
+-'  1  0  ~/inventories/inventory
+|4,39,1,0,1755170136,"~/inventories/inventory"
+-'  1  0  ~/inventories/inventory
+|4,39,1,0,1755170136,"~/inventories/inventory"
+-'  1  0  ~/inventories/inventory
+|4,39,1,0,1755170136,"~/inventories/inventory"
+-'  1  0  ~/inventories/inventory
+|4,39,1,0,1755170136,"~/inventories/inventory"
+-'  1  0  ~/inventories/inventory
+|4,39,1,0,1755170136,"~/inventories/inventory"
+-'  1  0  ~/inventories/inventory
+|4,39,1,0,1755170136,"~/inventories/inventory"
 -'  1  0  ~/inventories/inventory
 |4,39,1,0,1755170136,"~/inventories/inventory"
 -'  1  0  ~/inventories/inventory
@@ -111,6 +167,30 @@ $'
 |4,39,31,72,1755170010,"~/inventories/listing101.py"
 -'  31  72  ~/inventories/listing101.py
 |4,39,31,72,1755170010,"~/inventories/listing101.py"
+-'  31  72  ~/inventories/listing101.py
+|4,39,31,72,1755170010,"~/inventories/listing101.py"
+-'  31  72  ~/inventories/listing101.py
+|4,39,31,72,1755170010,"~/inventories/listing101.py"
+-'  31  72  ~/inventories/listing101.py
+|4,39,31,72,1755170010,"~/inventories/listing101.py"
+-'  31  72  ~/inventories/listing101.py
+|4,39,31,72,1755170010,"~/inventories/listing101.py"
+-'  1  0  ~/inventories/listing101.py
+|4,39,1,0,1755170005,"~/inventories/listing101.py"
+-'  1  0  ~/inventories/listing101.py
+|4,39,1,0,1755170005,"~/inventories/listing101.py"
+-'  1  0  ~/inventories/listing101.py
+|4,39,1,0,1755170005,"~/inventories/listing101.py"
+-'  1  0  ~/inventories/listing101.py
+|4,39,1,0,1755170005,"~/inventories/listing101.py"
+-'  1  0  ~/inventories/listing101.py
+|4,39,1,0,1755170005,"~/inventories/listing101.py"
+-'  1  0  ~/inventories/listing101.py
+|4,39,1,0,1755170005,"~/inventories/listing101.py"
+-'  1  0  ~/inventories/listing101.py
+|4,39,1,0,1755170005,"~/inventories/listing101.py"
+-'  1  0  ~/inventories/listing101.py
+|4,39,1,0,1755170005,"~/inventories/listing101.py"
 -'  1  0  ~/inventories/listing101.py
 |4,39,1,0,1755170005,"~/inventories/listing101.py"
 -'  1  0  ~/inventories/listing101.py
@@ -131,7 +211,7 @@ $'
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1755172166	0
+	*	1755172220	0
 	"	4	11
 	^	4	12
 	.	4	11
