@@ -298,3 +298,84 @@ cat lab92.yml
 mkdir testdir
 cd testdir
 curl -OLv https://naif.jpl.nasa.gov/pub/naif/MRO/kernels/ck/mro_sc_psp_250722_250728.bc
+ls
+mkdir inventorys
+rm -rf inventory
+rm -rf inventorys
+mkdir inventories
+cd inventor
+cd inventories
+ls
+vim listing101.py
+chmod +x listing101.py 
+vim inventory
+sudo vim /etc/hosts
+cd ..
+ansible-inventory -i inventories --list
+cd inventories
+vim listing101.py
+cd ..
+ansible-inventory -i inventories --list
+cd inventories
+ls
+vim listing101.py 
+cd ..
+ansible-inventory -i inventories --list
+cd inventories
+cat listing101.py 
+cd
+ls
+git add . && git commit -m "update" && git push
+git config --global user.email "tdavetech@gmail.com"
+git config --global user.name "linuxreader"
+git add . && git commit -m "update" && git push
+git remote add git@github.com:linuxreader/ansible-lab.git
+git remote add ansible-lab git@github.com:linuxreader/ansible-lab.git
+git push
+git push --set-upstream ansible-lab master
+git branch update
+git checkout update
+git push
+git push --set-upstream ansible-lab update
+ls
+cd testdir/
+ls
+cd ..
+rm testdir -rf
+git add . && git commit -m "update" && git push
+git push --set-upstream ansible-lab update
+ls
+git pull
+git pull origin main
+git pull https://github.com/linuxreader/ansible-lab.git main
+git checkout main
+git pull
+ls
+git add . && git commit -m "update" && git push
+ls
+vim .gitignore
+git add . && git commit -m "update" && git push
+vim .gitignore
+git rm --cached .ssh/id_ed25519
+git commit --amend --no-edit
+git filter-repo --path .ssh/id_ed25519 --invert-paths
+git add . && git commit -m "update" && git push
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch .ssh/id_ed25519" --prune-empty --tag-name-filter cat -- --all
+git push origin main --force
+man ansible-playbook
+ls
+ls | grep facts'
+ls | grep facts
+cat show_facts 
+ansible-playbook show_facts
+ls
+vim inventory
+ls
+ansible-playbook show_facts
+ansible-playbook show_facts | grep family
+ping 10.0.10.177
+ping marstherm-proc-dev
+ping hawk
+ansible-playbook show_facts | grep host
+vim ansible.cfg 
+ls

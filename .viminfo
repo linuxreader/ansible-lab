@@ -18,9 +18,9 @@ $'
 
 # Command Line History (newest to oldest):
 :q!
-|2,0,1755172237,,"q!"
+|2,0,1755799528,,"q!"
 :wq!
-|2,0,1755172167,,"wq!"
+|2,0,1755712195,,"wq!"
 :%s/’/'/g
 |2,0,1755170403,,"%s/’/'/g"
 
@@ -35,34 +35,98 @@ $'
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	ansible2
+|3,1,1,1,1,0,1755712188,"ansible2"
+"2	LINE	0
+	ansible1
+|3,0,2,1,1,0,1755712187,"ansible1"
 
 # File marks:
-'0  4  11  ~/.gitignore
-|4,48,4,11,1755172237,"~/.gitignore"
-'1  4  11  ~/.gitignore
-|4,49,4,11,1755172167,"~/.gitignore"
-'2  27  0  ~/inventories/listing101.py
-|4,50,27,0,1755170408,"~/inventories/listing101.py"
-'3  31  0  ~/inventories/listing101.py
-|4,51,31,0,1755170336,"~/inventories/listing101.py"
-'4  31  0  ~/inventories/listing101.py
-|4,52,31,0,1755170336,"~/inventories/listing101.py"
-'5  3  0  ~/inventories/inventory
-|4,53,3,0,1755170177,"~/inventories/inventory"
-'6  31  72  ~/inventories/listing101.py
-|4,54,31,72,1755170010,"~/inventories/listing101.py"
-'7  31  72  ~/inventories/listing101.py
-|4,55,31,72,1755170010,"~/inventories/listing101.py"
+'0  1  0  ~/ansible.cfg
+|4,48,1,0,1755799528,"~/ansible.cfg"
+'1  1  3  ~/inventory
+|4,49,1,3,1755712195,"~/inventory"
+'2  4  11  ~/.gitignore
+|4,50,4,11,1755172237,"~/.gitignore"
+'3  4  11  ~/.gitignore
+|4,51,4,11,1755172167,"~/.gitignore"
+'4  27  0  ~/inventories/listing101.py
+|4,52,27,0,1755170408,"~/inventories/listing101.py"
+'5  31  0  ~/inventories/listing101.py
+|4,53,31,0,1755170336,"~/inventories/listing101.py"
+'6  31  0  ~/inventories/listing101.py
+|4,54,31,0,1755170336,"~/inventories/listing101.py"
+'7  3  0  ~/inventories/inventory
+|4,55,3,0,1755170177,"~/inventories/inventory"
+'8  31  72  ~/inventories/listing101.py
+|4,56,31,72,1755170010,"~/inventories/listing101.py"
+'9  31  72  ~/inventories/listing101.py
+|4,57,31,72,1755170010,"~/inventories/listing101.py"
 
 # Jumplist (newest first):
+-'  1  0  ~/ansible.cfg
+|4,39,1,0,1755799528,"~/ansible.cfg"
+-'  1  3  ~/inventory
+|4,39,1,3,1755712195,"~/inventory"
+-'  1  3  ~/inventory
+|4,39,1,3,1755712195,"~/inventory"
 -'  4  11  ~/.gitignore
 |4,39,4,11,1755172237,"~/.gitignore"
+-'  4  11  ~/.gitignore
+|4,39,4,11,1755172237,"~/.gitignore"
+-'  4  11  ~/.gitignore
+|4,39,4,11,1755172237,"~/.gitignore"
+-'  4  11  ~/.gitignore
+|4,39,4,11,1755172237,"~/.gitignore"
+-'  4  11  ~/.gitignore
+|4,39,4,11,1755172167,"~/.gitignore"
+-'  4  11  ~/.gitignore
+|4,39,4,11,1755172167,"~/.gitignore"
+-'  4  11  ~/.gitignore
+|4,39,4,11,1755172167,"~/.gitignore"
 -'  4  11  ~/.gitignore
 |4,39,4,11,1755172167,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1755172065,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1755172065,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1755172065,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1755172065,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1755172065,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1755172065,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1755172065,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1755172065,"~/.gitignore"
+-'  27  0  ~/inventories/listing101.py
+|4,39,27,0,1755170408,"~/inventories/listing101.py"
+-'  27  0  ~/inventories/listing101.py
+|4,39,27,0,1755170408,"~/inventories/listing101.py"
+-'  27  0  ~/inventories/listing101.py
+|4,39,27,0,1755170408,"~/inventories/listing101.py"
+-'  27  0  ~/inventories/listing101.py
+|4,39,27,0,1755170408,"~/inventories/listing101.py"
+-'  27  0  ~/inventories/listing101.py
+|4,39,27,0,1755170408,"~/inventories/listing101.py"
+-'  27  0  ~/inventories/listing101.py
+|4,39,27,0,1755170408,"~/inventories/listing101.py"
+-'  27  0  ~/inventories/listing101.py
+|4,39,27,0,1755170408,"~/inventories/listing101.py"
+-'  27  0  ~/inventories/listing101.py
+|4,39,27,0,1755170408,"~/inventories/listing101.py"
+-'  27  0  ~/inventories/listing101.py
+|4,39,27,0,1755170408,"~/inventories/listing101.py"
+-'  27  0  ~/inventories/listing101.py
+|4,39,27,0,1755170408,"~/inventories/listing101.py"
+-'  27  0  ~/inventories/listing101.py
+|4,39,27,0,1755170408,"~/inventories/listing101.py"
+-'  27  0  ~/inventories/listing101.py
+|4,39,27,0,1755170408,"~/inventories/listing101.py"
 -'  27  0  ~/inventories/listing101.py
 |4,39,27,0,1755170408,"~/inventories/listing101.py"
 -'  27  0  ~/inventories/listing101.py
@@ -79,6 +143,30 @@ $'
 |4,39,12,7,1755170403,"~/inventories/listing101.py"
 -'  12  7  ~/inventories/listing101.py
 |4,39,12,7,1755170403,"~/inventories/listing101.py"
+-'  12  7  ~/inventories/listing101.py
+|4,39,12,7,1755170403,"~/inventories/listing101.py"
+-'  12  7  ~/inventories/listing101.py
+|4,39,12,7,1755170403,"~/inventories/listing101.py"
+-'  12  7  ~/inventories/listing101.py
+|4,39,12,7,1755170403,"~/inventories/listing101.py"
+-'  12  7  ~/inventories/listing101.py
+|4,39,12,7,1755170403,"~/inventories/listing101.py"
+-'  12  7  ~/inventories/listing101.py
+|4,39,12,7,1755170403,"~/inventories/listing101.py"
+-'  12  7  ~/inventories/listing101.py
+|4,39,12,7,1755170403,"~/inventories/listing101.py"
+-'  12  7  ~/inventories/listing101.py
+|4,39,12,7,1755170403,"~/inventories/listing101.py"
+-'  12  7  ~/inventories/listing101.py
+|4,39,12,7,1755170403,"~/inventories/listing101.py"
+-'  12  7  ~/inventories/listing101.py
+|4,39,12,7,1755170403,"~/inventories/listing101.py"
+-'  12  7  ~/inventories/listing101.py
+|4,39,12,7,1755170403,"~/inventories/listing101.py"
+-'  12  7  ~/inventories/listing101.py
+|4,39,12,7,1755170403,"~/inventories/listing101.py"
+-'  12  7  ~/inventories/listing101.py
+|4,39,12,7,1755170403,"~/inventories/listing101.py"
 -'  31  0  ~/inventories/listing101.py
 |4,39,31,0,1755170372,"~/inventories/listing101.py"
 -'  31  0  ~/inventories/listing101.py
@@ -87,6 +175,54 @@ $'
 |4,39,31,0,1755170372,"~/inventories/listing101.py"
 -'  31  0  ~/inventories/listing101.py
 |4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170372,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170336,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170336,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170336,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170336,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170336,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170336,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170336,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170336,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170336,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170336,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170336,"~/inventories/listing101.py"
+-'  31  0  ~/inventories/listing101.py
+|4,39,31,0,1755170336,"~/inventories/listing101.py"
 -'  31  0  ~/inventories/listing101.py
 |4,39,31,0,1755170336,"~/inventories/listing101.py"
 -'  31  0  ~/inventories/listing101.py
@@ -127,88 +263,21 @@ $'
 |4,39,3,0,1755170177,"~/inventories/inventory"
 -'  3  0  ~/inventories/inventory
 |4,39,3,0,1755170177,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  1  0  ~/inventories/inventory
-|4,39,1,0,1755170136,"~/inventories/inventory"
--'  31  72  ~/inventories/listing101.py
-|4,39,31,72,1755170010,"~/inventories/listing101.py"
--'  31  72  ~/inventories/listing101.py
-|4,39,31,72,1755170010,"~/inventories/listing101.py"
--'  31  72  ~/inventories/listing101.py
-|4,39,31,72,1755170010,"~/inventories/listing101.py"
--'  31  72  ~/inventories/listing101.py
-|4,39,31,72,1755170010,"~/inventories/listing101.py"
--'  31  72  ~/inventories/listing101.py
-|4,39,31,72,1755170010,"~/inventories/listing101.py"
--'  31  72  ~/inventories/listing101.py
-|4,39,31,72,1755170010,"~/inventories/listing101.py"
--'  31  72  ~/inventories/listing101.py
-|4,39,31,72,1755170010,"~/inventories/listing101.py"
--'  31  72  ~/inventories/listing101.py
-|4,39,31,72,1755170010,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
--'  1  0  ~/inventories/listing101.py
-|4,39,1,0,1755170005,"~/inventories/listing101.py"
+-'  3  0  ~/inventories/inventory
+|4,39,3,0,1755170177,"~/inventories/inventory"
 
 # History of marks within files (newest to oldest):
+
+> ~/ansible.cfg
+	*	1755799516	0
+	"	1	0
+
+> ~/inventory
+	*	1755712193	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
 
 > ~/.gitignore
 	*	1755172220	0
